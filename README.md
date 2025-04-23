@@ -57,23 +57,39 @@ Follow these steps to set up the project on your local machine:
    ```bash
    git clone https://github.com/Zburgers/Music-Recommendation-System.git
 Navigate to the project directory:
+
 bash
+Copy
+Edit
 cd Music-Recommendation-System
 Create and activate a virtual environment:
+
 bash
+Copy
+Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install the required dependencies:
+
 bash
+Copy
+Edit
 pip install -r requirements.txt
 📖 Usage
 Open the project in Jupyter Notebook:
+
 bash
+Copy
+Edit
 jupyter notebook
 Run the notebooks step by step to preprocess data, train models, and evaluate results.
+
 Use the trained model to generate music recommendations.
+
 📂 Project Structure
-Code
+bash
+Copy
+Edit
 Music-Recommendation-System/
 │
 ├── data/                  # Dataset folder
@@ -86,22 +102,37 @@ Music-Recommendation-System/
 Contributions are welcome! If you'd like to contribute to this project, please:
 
 Fork the repository.
+
 Create a new branch for your feature or bug fix:
+
 bash
+Copy
+Edit
 git checkout -b feature-name
 Commit your changes:
+
 bash
+Copy
+Edit
 git commit -m "Add a new feature"
 Push to the branch:
+
 bash
+Copy
+Edit
 git push origin feature-name
 Open a pull request.
+
 📜 License
 This project is licensed under the MIT License.
 
 🙌 Acknowledgements
 Scikit-learn
+
 TensorFlow
+
 Kaggle Datasets
+
 Matplotlib
+
 Seaborn
